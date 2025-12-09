@@ -4,7 +4,7 @@
 // When do they need to be reset or updated?
 
 let costPerDay = 0;
-let dailyRate= 35;
+let dailyRate= 0;
 
 const monday = document.getElementById("monday");
 const tuesday = document.getElementById("tuesday");
