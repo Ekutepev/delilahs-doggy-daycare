@@ -213,7 +213,7 @@ footer {
 
 .index > .flex:has(.about-us) img {
   flex: 0 0 auto;
-  width: clamp(150px, 40vw, 300px);
+  width: clamp(100px, 40vw, 300px);
   height: auto;
   display: block;
   margin-bottom: clamp(25px, 5vw, 50px);
