@@ -248,7 +248,7 @@ footer {
   display: flex;
   flex: 1;
   flex-direction: column;
-  width: 600px;
+  min-width: 300px;
   justify-content: center;
   align-items: center;
   align-self: center;
