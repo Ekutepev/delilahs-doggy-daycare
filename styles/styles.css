@@ -261,8 +261,8 @@ footer {
 }
 
 .day-selector li {
-  margin-right: 20px;
-  width: 60px;
+  margin-right: clamp(10px, 2vw, 20px);
+  width: clamp(30px, 5vw, 60px);
 }
 
 .day-selector li, .small-button {
