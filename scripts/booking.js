@@ -51,11 +51,11 @@ function clear() {
   fullDay.classList.remove("clicked-bground-color");
 
   costPerDay = 0;
-  recalculate()
+  recalculate();
 
 }
 
-clearButton.addEventListener("click", clear)
+clearButton.addEventListener("click", clear);
 
 
 /********* change rate *********/
@@ -67,7 +67,7 @@ function halfDayButton() {
   recalculate();
 }
 
-halfDay.addEventListener("click", halfDayButton)
+halfDay.addEventListener("click", halfDayButton);
 // when the full-day button is clicked, the daily rate is set back to $35, the clicked class is added to "full" and removed from "half", and the total cost is recalculated.
 
 function fullDayButton(){
@@ -77,7 +77,7 @@ function fullDayButton(){
   recalculate();
 }
 
-fullDay.addEventListener("click", fullDayButton)
+fullDay.addEventListener("click", fullDayButton);
 
 /********* calculate *********/
 // when a calculation is needed, set the innerHTML of the calculated-cost element to the appropriate value
